@@ -2,7 +2,7 @@
 
 Console.WriteLine("Добрый день!");
 
-Console.WriteLine("Введите трёхзначное значное число");
+Console.WriteLine("Введите трёхзначное число");
 int num = Convert.ToInt32(Console.ReadLine());
 
 if (num<100) Console.WriteLine($"Ошибка! Вы ввели не трёхзначное число!");
